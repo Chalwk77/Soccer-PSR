@@ -1,0 +1,9 @@
+Licensing information
+=====================
+
+This game contains code from the following projects:
+
+ - LOVE
+	Website: https://love2d.org/
+	License: zlib
+	Copyright (c) 2006-2019 LOVE Development Team
