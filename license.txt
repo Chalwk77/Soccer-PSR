@@ -7,3 +7,8 @@ This game contains code from the following projects:
 	Website: https://love2d.org/
 	License: zlib
 	Copyright (c) 2006-2019 LOVE Development Team
+
+ - Love-Loader
+	Website: https://love2d.org/wiki/love-loader
+	License: MIT
+	Copyright (c) 2014 Enrique García Cota, Tanner Rogalsky
