@@ -38,12 +38,16 @@ end
 function loadingState.start(game, finishCallback)
     math.randomseed(os.time())
     loader.newImage(game.images, 1, 'media/images/field.png')
-    loader.newImage(game.images, 2, 'media/images/red_player.png')
-    loader.newImage(game.images, 3, 'media/images/green_player.png')
+    loader.newImage(game.images, 2, 'media/images/background.png')
+    loader.newImage(game.images, 3, 'media/images/menu_buttons.png')
 
-    loader.newFont(game.fonts, 1, 'fonts/confcrg.ttf', 120)
+    loader.newFont(game.fonts, 1, 'fonts/confcrg.ttf', 16)
+    loader.newFont(game.fonts, 2, 'fonts/SUPER_CHARGERS.ttf', 120)
+    loader.newFont(game.fonts, 3, 'fonts/confcrg.ttf', 28)
+    loader.newFont(game.fonts, 4, 'fonts/arial.ttf', 14)
 
-    loader.start(finishCallback, print)
+    --loader.start(finishCallback, print)
+    loader.start(finishCallback)
 end
 
 function loadingState.draw()
