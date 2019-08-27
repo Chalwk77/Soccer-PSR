@@ -41,19 +41,19 @@ function playingState.start(game)
     end
 
     table.insert(buttons, newButton(
-        "Start Game", -- Text
+        "Start Game",
         function()
             game_state = "playing"
         end)
     )
     table.insert(buttons, newButton(
-        "Options", -- Text
+        "Options",
         function()
             print('OPTIONS BUTTON CLICKED')
         end)
     )
     table.insert(buttons, newButton(
-        "Exit Game", -- Text
+        "Exit Game",
         function()
             love.event.quit(0)
         end)
