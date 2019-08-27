@@ -15,7 +15,7 @@ local buttons, button_click = { }, nil
 local button_height, button_font = 64, nil
 
 function playingState.start(game)
-	-- Setup football field parameters:
+	-- Setup Soccer field parameters:
     field.img = game.images[1]
     field.opacity = { 255, 255, 255, 1 }
     field.sx, field.sy = getScaling(field.img)

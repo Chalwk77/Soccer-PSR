@@ -1,4 +1,4 @@
-# Football PSR (Rock, Paper, Scissors)
+# Soccer PSR (Rock, Paper, Scissors)
 ### Intended Environment: Windows PC (Android Port will come later).
 #### CURRENTLY IN DEVELOPMENT
 
